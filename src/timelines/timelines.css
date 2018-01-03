@@ -1,0 +1,17 @@
+:local(.d3timelines) {
+}
+
+:local(.d3timelines) .timeline-label, :local(.d3timelines) .textlabels {
+    pointer-events: none;
+}
+
+.d3timelines-tooltip {
+    position: absolute;
+    text-align: left;
+    padding: 1rem;
+    background: whitesmoke;
+    border: black solid 1px;
+    border-radius: 8px;
+    pointer-events: none;
+    font-family: monospace;
+}

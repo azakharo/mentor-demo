@@ -1,0 +1,104 @@
+:local .page {
+    padding: 0;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+:local .waveformContainer {
+    margin: 1rem 30px 0 112px;
+}
+
+:local .eventTableWrapper{
+    padding: 1rem;
+}
+
+:local .clickable {
+    cursor: pointer;
+}
+
+:local .timelinesWrapper {
+    padding-left: 1rem;
+}
+
+:local .analysisIsInProgress {
+    text-align: center;
+    font-size: x-large;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+:local .eventsTable {
+}
+
+:local .eventName {
+    font-size: larger;
+    width: 16rem;
+}
+
+:local .events-table-row-clickable {
+    cursor: pointer;
+}
+
+:local .events-table-row {
+}
+
+:local .events-table-row-selected {
+    font-weight: bold;
+}
+
+:local .speakerResultTableWrapper {
+    padding: 1rem 1rem 2rem 1rem;
+}
+
+:local .speakerResult {
+    text-align: center;
+}
+
+:local(.minimal-table) {
+    border-collapse: collapse;
+}
+
+:local(.minimal-table) thead {
+    font-size: larger;
+}
+
+:local(.minimal-table) td, th {
+    padding: 0.3rem 2rem;
+    line-height: 1.5;
+    border-bottom: #07116e solid 1px;
+}
+
+:local(.minimal-table) tbody > tr:hover {
+    background-color: rgba(226, 226, 226, 0.5);
+}
+
+:local .criterionNames {
+    color: darkblue;
+    font-size: larger;
+}
+
+:local .resultGood {
+    color: lightgreen;
+}
+
+:local .resultBad {
+    color: indianred;
+}
+
+:local .missingCriteria {
+    color: indianred;
+    font-size: larger;
+    padding: 1rem 1rem 2rem 1rem;
+}
+
+:local .flexRow {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+:local .speakerResultsTable {
+
+}

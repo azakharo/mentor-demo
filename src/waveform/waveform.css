@@ -1,0 +1,45 @@
+:local .waveform {
+
+}
+
+:local .waveformPanel {
+    background: #eee;
+    padding: 3px 5px 0 5px;
+    text-align: left;
+}
+
+:local .waveformPanel button,
+:local .waveformPanel a {
+    background: #eee;
+    border: 0;
+    color: #333;
+}
+
+:local .waveformPanel button:disabled {
+    color: #ddd;
+}
+
+:local .loading {
+    height: 0;
+    font-size: 24pt;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+:local .loading div {
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+}
+
+:local .disabled {
+    color: #ddd;
+}
+
+:local .errGetAudio {
+    font-size: large;
+    text-align: center;
+    width: 100%;
+    color: indianred;
+}
